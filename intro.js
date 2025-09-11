@@ -10,3 +10,10 @@ console.log(personality); //shows 'undefined' because we have not initialized it
 const PI = 3.1416;
 
 console.log(PI);
+
+// If you did something like this:
+
+// const PI;
+// PI = 3.1416;
+
+// This will not work. The declaration will set the value of PI to 'undefined', and since it's a constant, we can't change it later.
