@@ -34,7 +34,7 @@ let learner = {
 //type-casting or type-coercion
 //type casting is when you explicitly tell JavaScript to convert a value to a different type
 let strNum = "123";
-let convertedNum = Number(greeting);
+let convertedNum = Number(strNum);
 
 //we can type cast using these three functions: String(), Number(), Boolean()
 
